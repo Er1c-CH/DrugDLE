@@ -1093,6 +1093,1406 @@ const crack = {
   ]
 }
 
+const metadona = {
+  "Nome": "Metadona",
+  "Descrição": "É um opiáceo sintético usado no tratamento da dor severa e no manejo da dependência de opiáceos, incluindo heroína.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C21H27NO",
+      "Peso molecular": 309.45,
+      "Aparência": "Líquido viscoso ou comprimidos",
+      "Solubilidade": "Solúvel em água e etanol",
+      "Ponto de fusão": "235 °C"
+  },
+  "Mecanismo de ação": "Liga-se aos receptores opioides no cérebro, reduzindo a percepção da dor e os sintomas de abstinência de opiáceos.",
+  "Usos médicos": [
+      "Tratamento da dor crônica severa",
+      "Terapia de substituição para dependentes de opiáceos"
+  ],
+  "Efeitos colaterais": [
+      "Sonolência",
+      "Náusea e vômito",
+      "Constipação",
+      "Respiração lenta (depressão respiratória)",
+      "Dependência e tolerância"
+  ],
+  "Formas de dosagem": [
+      "Comprimidos",
+      "Solução oral",
+      "Injeção"
+  ],
+  "Status legal": {
+      "Classificação": "Substância controlada em muitos países",
+      "Restrições": "Uso restrito a prescrição médica"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvida na Alemanha em 1937",
+      "Uso médico": "Introduzida nos Estados Unidos na década de 1940"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Bem absorvida pelo trato gastrointestinal",
+      "Distribuição": "Distribuída pelo corpo, atravessa a barreira hematoencefálica",
+      "Metabolismo": "Metabolizada no fígado",
+      "Meia vida de eliminação": "8-59 horas",
+      "Excreção": "Excretada principalmente pelos rins"
+  },
+  "Avisos": [
+      "Uso prolongado pode levar à dependência",
+      "Risco de overdose, que pode ser fatal",
+      "Monitoramento cuidadoso necessário durante o tratamento"
+  ]
+};
+
+const diazepam = {
+  "Nome": "Diazepam",
+  "Descrição": "É uma benzodiazepina usada no tratamento da ansiedade, espasmos musculares, convulsões e síndrome de abstinência alcoólica.",
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C16H13ClN2O",
+      "Peso molecular": 284.75,
+      "Aparência": "Cristais brancos ou pó cristalino",
+      "Solubilidade": "Pouco solúvel em água, solúvel em etanol",
+      "Ponto de fusão": "131-135 °C"
+  },
+  "Mecanismo de ação": "Aumenta a eficácia do GABA, um neurotransmissor inibitório, diminuindo a atividade neuronal.",
+  "Usos médicos": [
+      "Tratamento da ansiedade",
+      "Alívio de espasmos musculares",
+      "Tratamento de convulsões",
+      "Gerenciamento da síndrome de abstinência alcoólica"
+  ],
+  "Efeitos colaterais": [
+      "Sonolência",
+      "Tontura",
+      "Fraqueza muscular",
+      "Dependência e tolerância",
+      "Confusão"
+  ],
+  "Formas de dosagem": [
+      "Comprimidos",
+      "Solução injetável",
+      "Solução oral"
+  ],
+  "Status legal": {
+      "Classificação": "Substância controlada em muitos países",
+      "Restrições": "Uso restrito a prescrição médica"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvida em 1963 por Hoffmann-La Roche",
+      "Uso médico": "Amplamente utilizada desde a década de 1960"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Bem absorvida pelo trato gastrointestinal",
+      "Distribuição": "Amplamente distribuída pelo corpo",
+      "Metabolismo": "Metabolizada no fígado",
+      "Meia vida de eliminação": "20-50 horas",
+      "Excreção": "Excretada principalmente pelos rins"
+  },
+  "Avisos": [
+      "Uso prolongado pode levar à dependência",
+      "Risco de sedação excessiva",
+      "Deve ser usada com cautela em pacientes idosos"
+  ]
+}
+
+const cetamina = {
+  "Nome": "Cetamina",
+  "Descrição": "É um anestésico dissociativo usado tanto para fins médicos quanto recreativos. Em contextos clínicos, é usada para induzir e manter anestesia. Recreativamente, é conhecida por seus efeitos alucinógenos e de dissociação.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C13H16ClNO",
+      "Peso molecular": 237.73,
+      "Aparência": "Líquido incolor ou cristais brancos",
+      "Solubilidade": "Solúvel em água e solventes orgânicos",
+      "Ponto de fusão": "258-261 °C"
+  },
+  "Mecanismo de ação": "A cetamina bloqueia os receptores NMDA (N-metil-D-aspartato) no cérebro, resultando em anestesia e dissociação. Também tem efeitos antidepressivos rápidos.",
+  "Usos médicos": [
+      "Indução e manutenção de anestesia",
+      "Tratamento da dor crônica",
+      "Tratamento de depressão resistente",
+      "Sedação em procedimentos de emergência"
+  ],
+  "Efeitos colaterais": [
+      "Alucinações",
+      "Confusão",
+      "Tontura",
+      "Aumento da pressão arterial e frequência cardíaca",
+      "Náusea e vômito"
+  ],
+  "Formas de dosagem": [
+      "Injeção intravenosa",
+      "Injeção intramuscular",
+      "Solução oral",
+      "Spray nasal"
+  ],
+  "Status legal": {
+      "Classificação": "Substância controlada em muitos países",
+      "Restrições": "Uso restrito a prescrição médica"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvida nos anos 1960 como anestésico",
+      "Uso médico": "Amplamente usada em medicina de emergência e veterinária"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Rápida absorção quando administrada por via intravenosa ou intramuscular",
+      "Distribuição": "Distribuída rapidamente para tecidos ricos em lípidos, incluindo o cérebro",
+      "Metabolismo": "Metabolizada principalmente no fígado",
+      "Meia vida de eliminação": "2-3 horas",
+      "Excreção": "Excretada principalmente na urina"
+  },
+  "Avisos": [
+      "Pode causar dependência psicológica",
+      "Uso recreativo pode levar a danos cognitivos e urinários",
+      "Deve ser usada com cautela em pacientes com histórico de hipertensão"
+  ]
+}
+
+
+const nitroglicerina = {
+  "Nome": "Nitroglicerina",
+  "Descrição": "É um vasodilatador utilizado no tratamento de angina pectoris e insuficiência cardíaca. Também é conhecida por seu uso em explosivos.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C3H5N3O9",
+      "Peso molecular": 227.09,
+      "Aparência": "Líquido oleoso incolor a amarelo pálido",
+      "Solubilidade": "Solúvel em água e etanol",
+      "Ponto de fusão": "13 °C"
+  },
+  "Mecanismo de ação": "Relaxamento dos vasos sanguíneos, aumentando o fluxo sanguíneo para o coração e reduzindo a pressão arterial.",
+  "Usos médicos": [
+      "Tratamento de angina pectoris",
+      "Tratamento de insuficiência cardíaca",
+      "Controle de hipertensão arterial durante cirurgias"
+  ],
+  "Efeitos colaterais": [
+      "Dor de cabeça",
+      "Tontura",
+      "Náusea",
+      "Hipotensão",
+      "Tolerância com uso prolongado"
+  ],
+  "Formas de dosagem": [
+      "Comprimidos sublinguais",
+      "Spray sublingual",
+      "Patches transdérmicos",
+      "Solução intravenosa"
+  ],
+  "Status legal": {
+      "Classificação": "Medicamento prescrito",
+      "Restrições": "Uso sob supervisão médica"
+  },
+  "Histórico": {
+      "Descoberta": "Descoberta por Ascanio Sobrero em 1847",
+      "Uso médico": "Introduzida no tratamento de angina em 1879 por William Murrell"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Absorção rápida via administração sublingual",
+      "Distribuição": "Distribuída pelo corpo",
+      "Metabolismo": "Metabolizada no fígado",
+      "Meia vida de eliminação": "1-4 minutos",
+      "Excreção": "Excretada principalmente pelos rins"
+  },
+  "Avisos": [
+      "Evitar uso concomitante com inibidores da PDE-5 (ex.: Viagra)",
+      "Monitorar pressão arterial durante o uso",
+      "Pode causar hipotensão grave em doses elevadas"
+  ]
+}
+
+const clonazepam = {
+  "Nome": "Clonazepam",
+  "Descrição": "É uma benzodiazepina usada no tratamento de transtornos de ansiedade, epilepsia e síndrome das pernas inquietas.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C15H10ClN3O3",
+      "Peso molecular": 315.71,
+      "Aparência": "Cristais brancos ou pó cristalino",
+      "Solubilidade": "Pouco solúvel em água, solúvel em etanol",
+      "Ponto de fusão": "239-241 °C"
+  },
+  "Mecanismo de ação": "Aumenta a eficácia do GABA, um neurotransmissor inibitório, reduzindo a atividade neuronal.",
+  "Usos médicos": [
+      "Tratamento de transtornos de ansiedade",
+      "Controle de crises epilépticas",
+      "Tratamento de síndrome das pernas inquietas"
+  ],
+  "Efeitos colaterais": [
+      "Sonolência",
+      "Tontura",
+      "Fraqueza muscular",
+      "Dependência e tolerância",
+      "Confusão"
+  ],
+  "Formas de dosagem": [
+      "Comprimidos",
+      "Solução oral"
+  ],
+  "Status legal": {
+      "Classificação": "Substância controlada em muitos países",
+      "Restrições": "Uso restrito a prescrição médica"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvida em 1964 por Hoffmann-La Roche",
+      "Uso médico": "Amplamente utilizada desde a década de 1970"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Bem absorvida pelo trato gastrointestinal",
+      "Distribuição": "Amplamente distribuída pelo corpo",
+      "Metabolismo": "Metabolizada no fígado",
+      "Meia vida de eliminação": "18-50 horas",
+      "Excreção": "Excretada principalmente pelos rins"
+  },
+  "Avisos": [
+      "Uso prolongado pode levar à dependência",
+      "Risco de sedação excessiva",
+      "Deve ser usada com cautela em pacientes idosos"
+  ]
+}
+
+const fluoxetina = {
+  "Nome": "Fluoxetina",
+  "Descrição": "É um antidepressivo da classe dos inibidores seletivos da recaptação da serotonina (ISRS), usado no tratamento de depressão, transtorno obsessivo-compulsivo e bulimia nervosa.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C17H18F3NO",
+      "Peso molecular": 309.33,
+      "Aparência": "Cristais brancos ou pó cristalino",
+      "Solubilidade": "Pouco solúvel em água, solúvel em etanol",
+      "Ponto de fusão": "179-182 °C"
+  },
+  "Mecanismo de ação": "Inibe a recaptação da serotonina no cérebro, aumentando sua disponibilidade e melhorando o humor.",
+  "Usos médicos": [
+      "Tratamento de depressão",
+      "Tratamento de transtorno obsessivo-compulsivo",
+      "Tratamento de bulimia nervosa",
+      "Tratamento de transtorno de pânico"
+  ],
+  "Efeitos colaterais": [
+      "Náusea",
+      "Insônia",
+      "Boca seca",
+      "Tontura",
+      "Diminuição do apetite"
+  ],
+  "Formas de dosagem": [
+      "Comprimidos",
+      "Cápsulas",
+      "Solução oral"
+  ],
+  "Status legal": {
+      "Classificação": "Medicamento prescrito",
+      "Restrições": "Uso sob supervisão médica"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvida nos anos 1970 por Eli Lilly and Company",
+      "Uso médico": "Introduzida no mercado em 1987"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Bem absorvida pelo trato gastrointestinal",
+      "Distribuição": "Amplamente distribuída pelo corpo",
+      "Metabolismo": "Metabolizada no fígado",
+      "Meia vida de eliminação": "1-3 dias",
+      "Excreção": "Excretada principalmente pelos rins"
+  },
+  "Avisos": [
+      "Monitorar sinais de piora da depressão e comportamento suicida",
+      "Pode interagir com outros medicamentos",
+      "Evitar uso em pacientes com histórico de convulsões"
+  ]
+}
+
+const propofol = {
+  "Nome": "Propofol",
+  "Descrição": "É um anestésico intravenoso de ação rápida, usado para induzir e manter anestesia geral. É conhecido por sua rápida recuperação e menor incidência de náuseas pós-operatórias.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C12H18O",
+      "Peso molecular": 178.27,
+      "Aparência": "Líquido oleoso incolor",
+      "Solubilidade": "Pouco solúvel em água, solúvel em etanol",
+      "Ponto de fusão": "18 °C"
+  },
+  "Mecanismo de ação": "Potencializa a atividade do GABA, um neurotransmissor inibitório, causando depressão do sistema nervoso central.",
+  "Usos médicos": [
+      "Indução e manutenção de anestesia geral",
+      "Sedação para procedimentos médicos",
+      "Controle de crises epilépticas refratárias"
+  ],
+  "Efeitos colaterais": [
+      "Hipotensão",
+      "Depressão respiratória",
+      "Dor no local da injeção",
+      "Náusea",
+      "Bradicardia"
+  ],
+  "Formas de dosagem": [
+      "Solução injetável"
+  ],
+  "Status legal": {
+      "Classificação": "Medicamento prescrito",
+      "Restrições": "Uso restrito a ambiente hospitalar"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvida nos anos 1970",
+      "Uso médico": "Introduzida no mercado nos anos 1980"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Administração intravenosa",
+      "Distribuição": "Rapidamente distribuída pelo corpo",
+      "Metabolismo": "Metabolizada no fígado",
+      "Meia vida de eliminação": "2-24 horas",
+      "Excreção": "Excretada principalmente pelos rins"
+  },
+  "Avisos": [
+      "Monitoramento contínuo de sinais vitais durante o uso",
+      "Uso excessivo pode levar à dependência",
+      "Deve ser administrado por profissionais treinados"
+  ]
+}
+
+
+const dexametasona = {
+  "Nome": "Dexametasona",
+  "Descrição": "É um corticosteroide potente usado no tratamento de inflamação, reações alérgicas graves e certas condições autoimunes.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C22H29FO5",
+      "Peso molecular": 392.46,
+      "Aparência": "Cristais brancos ou pó cristalino",
+      "Solubilidade": "Pouco solúvel em água, solúvel em etanol",
+      "Ponto de fusão": "262-264 °C"
+  },
+  "Mecanismo de ação": "Reduz a inflamação e suprime o sistema imunológico ao interferir na liberação de substâncias que causam inflamação.",
+  "Usos médicos": [
+      "Tratamento de inflamações severas",
+      "Tratamento de reações alérgicas graves",
+      "Tratamento de certas condições autoimunes",
+      "Tratamento de edema cerebral"
+  ],
+  "Efeitos colaterais": [
+      "Aumento de peso",
+      "Hiperglicemia",
+      "Pressão arterial elevada",
+      "Osteoporose",
+      "Imunossupressão"
+  ],
+  "Formas de dosagem": [
+      "Comprimidos",
+      "Injeção",
+      "Solução oral",
+      "Colírios"
+  ],
+  "Status legal": {
+      "Classificação": "Medicamento prescrito",
+      "Restrições": "Uso sob supervisão médica"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvida nos anos 1950",
+      "Uso médico": "Amplamente utilizada desde então"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Bem absorvida pelo trato gastrointestinal",
+      "Distribuição": "Distribuída pelo corpo, atravessa a barreira hematoencefálica",
+      "Metabolismo": "Metabolizada no fígado",
+      "Meia vida de eliminação": "36-54 horas",
+      "Excreção": "Excretada principalmente pelos rins"
+  },
+  "Avisos": [
+      "Uso prolongado pode levar a efeitos adversos graves",
+      "Monitorar glicemia em pacientes diabéticos",
+      "Não interromper o uso abruptamente sem orientação médica"
+  ]
+}
+
+
+const clonidina = {
+  "Nome": "Clonidina",
+  "Descrição": "É um agonista dos receptores alfa-2 adrenérgicos usado no tratamento da hipertensão arterial e do transtorno de déficit de atenção e hiperatividade (TDAH).",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C9H9Cl2N3",
+      "Peso molecular": 230.1,
+      "Aparência": "Cristais brancos ou pó cristalino",
+      "Solubilidade": "Solúvel em água e etanol",
+      "Ponto de fusão": "143-144 °C"
+  },
+  "Mecanismo de ação": "Estimula os receptores alfa-2 adrenérgicos no cérebro, resultando em redução da liberação de norepinefrina e diminuição da pressão arterial.",
+  "Usos médicos": [
+      "Tratamento de hipertensão arterial",
+      "Tratamento de TDAH",
+      "Tratamento de sintomas de abstinência de opiáceos",
+      "Tratamento de ondas de calor em mulheres na menopausa"
+  ],
+  "Efeitos colaterais": [
+      "Sonolência",
+      "Boca seca",
+      "Tontura",
+      "Constipação",
+      "Hipotensão"
+  ],
+  "Formas de dosagem": [
+      "Comprimidos",
+      "Patches transdérmicos",
+      "Solução oral"
+  ],
+  "Status legal": {
+      "Classificação": "Medicamento prescrito",
+      "Restrições": "Uso sob supervisão médica"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvida nos anos 1960",
+      "Uso médico": "Amplamente utilizada desde então"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Bem absorvida pelo trato gastrointestinal",
+      "Distribuição": "Distribuída pelo corpo, atravessa a barreira hematoencefálica",
+      "Metabolismo": "Metabolizada no fígado",
+      "Meia vida de eliminação": "6-20 horas",
+      "Excreção": "Excretada principalmente pelos rins"
+  },
+  "Avisos": [
+      "Monitorar a pressão arterial durante o uso",
+      "Evitar interrupção abrupta do tratamento",
+      "Pode causar sedação significativa"
+  ]
+}
+
+
+const amitriptilina = {
+  "Nome": "Amitriptilina",
+  "Descrição": "É um antidepressivo tricíclico usado no tratamento de depressão, dor neuropática e enxaqueca.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C20H23N",
+      "Peso molecular": 277.41,
+      "Aparência": "Cristais brancos ou pó cristalino",
+      "Solubilidade": "Pouco solúvel em água, solúvel em etanol",
+      "Ponto de fusão": "196-197 °C"
+  },
+  "Mecanismo de ação": "Bloqueia a recaptação de norepinefrina e serotonina no cérebro, aumentando sua disponibilidade e melhorando o humor.",
+  "Usos médicos": [
+      "Tratamento de depressão",
+      "Tratamento de dor neuropática",
+      "Profilaxia de enxaqueca",
+      "Tratamento de transtornos de ansiedade"
+  ],
+  "Efeitos colaterais": [
+      "Sonolência",
+      "Boca seca",
+      "Ganho de peso",
+      "Tontura",
+      "Constipação"
+  ],
+  "Formas de dosagem": [
+      "Comprimidos",
+      "Solução oral"
+  ],
+  "Status legal": {
+      "Classificação": "Medicamento prescrito",
+      "Restrições": "Uso sob supervisão médica"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvida nos anos 1960",
+      "Uso médico": "Amplamente utilizada desde então"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Bem absorvida pelo trato gastrointestinal",
+      "Distribuição": "Amplamente distribuída pelo corpo",
+      "Metabolismo": "Metabolizada no fígado",
+      "Meia vida de eliminação": "10-50 horas",
+      "Excreção": "Excretada principalmente pelos rins"
+  },
+  "Avisos": [
+      "Uso prolongado pode levar à dependência",
+      "Monitorar sinais de piora da depressão e comportamento suicida",
+      "Evitar uso em pacientes com histórico de convulsões"
+  ]
+}
+
+
+const aripiprazol = {
+  "Nome": "Aripiprazol",
+  "Descrição": "É um antipsicótico atípico usado no tratamento de esquizofrenia, transtorno bipolar e depressão resistente ao tratamento.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C23H27Cl2N3O2",
+      "Peso molecular": 448.39,
+      "Aparência": "Pó cristalino branco a levemente amarelado",
+      "Solubilidade": "Pouco solúvel em água, solúvel em metanol",
+      "Ponto de fusão": "139-141 °C"
+  },
+  "Mecanismo de ação": "Age como agonista parcial nos receptores de dopamina D2 e serotonina 5-HT1A, e antagonista nos receptores de serotonina 5-HT2A.",
+  "Usos médicos": [
+      "Tratamento de esquizofrenia",
+      "Tratamento de transtorno bipolar",
+      "Tratamento de depressão resistente ao tratamento",
+      "Tratamento de irritabilidade associada ao autismo"
+  ],
+  "Efeitos colaterais": [
+      "Ganho de peso",
+      "Sedação",
+      "Acatisia",
+      "Ansiedade",
+      "Náusea"
+  ],
+  "Formas de dosagem": [
+      "Comprimidos",
+      "Solução oral",
+      "Injeção de liberação prolongada"
+  ],
+  "Status legal": {
+      "Classificação": "Medicamento prescrito",
+      "Restrições": "Uso sob supervisão médica"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvida nos anos 1990",
+      "Uso médico": "Aprovada pelo FDA em 2002"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Bem absorvida pelo trato gastrointestinal",
+      "Distribuição": "Amplamente distribuída pelo corpo",
+      "Metabolismo": "Metabolizada no fígado",
+      "Meia vida de eliminação": "75-146 horas",
+      "Excreção": "Excretada principalmente pelos rins"
+  },
+  "Avisos": [
+      "Monitorar sinais de piora da depressão e comportamento suicida",
+      "Pode causar síndrome neuroléptica maligna",
+      "Evitar uso em pacientes com histórico de convulsões"
+  ]
+}
+
+
+const tramadol = {
+  "Nome": "Tramadol",
+  "Descrição": "É um analgésico opioide usado no tratamento de dores moderadas a severas. É conhecido por sua ação dupla como agonista dos receptores opioides e inibidor da recaptação de serotonina e norepinefrina.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C16H25NO2",
+      "Peso molecular": 263.38,
+      "Aparência": "Cristais brancos ou pó cristalino",
+      "Solubilidade": "Pouco solúvel em água, solúvel em etanol",
+      "Ponto de fusão": "180-181 °C"
+  },
+  "Mecanismo de ação": "Age como agonista dos receptores opioides μ e inibe a recaptação de serotonina e norepinefrina, alterando a percepção da dor no cérebro.",
+  "Usos médicos": [
+      "Tratamento de dores moderadas a severas",
+      "Tratamento de dor crônica"
+  ],
+  "Efeitos colaterais": [
+      "Náusea",
+      "Tontura",
+      "Constipação",
+      "Sonolência",
+      "Risco de dependência"
+  ],
+  "Formas de dosagem": [
+      "Comprimidos",
+      "Cápsulas",
+      "Solução oral",
+      "Injeção"
+  ],
+  "Status legal": {
+      "Classificação": "Substância controlada em muitos países",
+      "Restrições": "Uso restrito a prescrição médica"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvida nos anos 1970",
+      "Uso médico": "Introduzida no mercado nos anos 1990"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Bem absorvida pelo trato gastrointestinal",
+      "Distribuição": "Amplamente distribuída pelo corpo",
+      "Metabolismo": "Metabolizada no fígado",
+      "Meia vida de eliminação": "5-7 horas",
+      "Excreção": "Excretada principalmente pelos rins"
+  },
+  "Avisos": [
+      "Risco de abuso e dependência",
+      "Monitorar sinais de depressão respiratória",
+      "Evitar uso concomitante com álcool e outros depressores do SNC"
+  ]
+}
+
+
+const amiodarona = {
+  "Nome": "Amiodarona",
+  "Descrição": "É um antiarrítmico usado no tratamento de arritmias ventriculares e supraventriculares graves.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C25H29I2NO3",
+      "Peso molecular": 645.32,
+      "Aparência": "Pó cristalino branco a levemente amarelado",
+      "Solubilidade": "Pouco solúvel em água, solúvel em etanol e dimetilsulfóxido",
+      "Ponto de fusão": "157-158 °C"
+  },
+  "Mecanismo de ação": "Prolonga a fase 3 do potencial de ação cardíaco, prolongando o período refratário e diminuindo a excitabilidade cardíaca.",
+  "Usos médicos": [
+      "Tratamento de arritmias ventriculares graves",
+      "Tratamento de arritmias supraventriculares graves",
+      "Prevenção de fibrilação atrial"
+  ],
+  "Efeitos colaterais": [
+      "Toxicidade pulmonar",
+      "Hepatotoxicidade",
+      "Disfunção da tireoide",
+      "Fotossensibilidade",
+      "Bradicardia"
+  ],
+  "Formas de dosagem": [
+      "Comprimidos",
+      "Solução injetável"
+  ],
+  "Status legal": {
+      "Classificação": "Medicamento prescrito",
+      "Restrições": "Uso sob supervisão médica"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvida nos anos 1960",
+      "Uso médico": "Aprovada pelo FDA em 1985"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Absorção variável pelo trato gastrointestinal",
+      "Distribuição": "Amplamente distribuída pelo corpo, acumulando-se em tecidos adiposos",
+      "Metabolismo": "Metabolizada no fígado",
+      "Meia vida de eliminação": "20-100 dias",
+      "Excreção": "Excretada principalmente pelas fezes"
+  },
+  "Avisos": [
+      "Monitorar função pulmonar, hepática e tireoidiana durante o tratamento",
+      "Uso prolongado pode levar à toxicidade",
+      "Evitar exposição ao sol devido ao risco de fotossensibilidade"
+  ]
+}
+
+
+const gabapentina = {
+  "Nome": "Gabapentina",
+  "Descrição": "É um medicamento anticonvulsivante usado no tratamento de epilepsia, dor neuropática e transtorno de ansiedade generalizada.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C9H17NO2",
+      "Peso molecular": 171.24,
+      "Aparência": "Cristais brancos ou pó cristalino",
+      "Solubilidade": "Solúvel em água",
+      "Ponto de fusão": "162-166 °C"
+  },
+  "Mecanismo de ação": "Embora seu mecanismo de ação não seja totalmente compreendido, acredita-se que a gabapentina modula a atividade dos canais de cálcio no sistema nervoso central.",
+  "Usos médicos": [
+      "Tratamento de epilepsia",
+      "Tratamento de dor neuropática",
+      "Tratamento de transtorno de ansiedade generalizada"
+  ],
+  "Efeitos colaterais": [
+      "Sonolência",
+      "Tontura",
+      "Ganho de peso",
+      "Edema periférico",
+      "Boca seca"
+  ],
+  "Formas de dosagem": [
+      "Comprimidos",
+      "Cápsulas",
+      "Solução oral"
+  ],
+  "Status legal": {
+      "Classificação": "Medicamento prescrito",
+      "Restrições": "Uso sob supervisão médica"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvida nos anos 1970",
+      "Uso médico": "Aprovada pelo FDA em 1993"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Bem absorvida pelo trato gastrointestinal",
+      "Distribuição": "Amplamente distribuída pelo corpo",
+      "Metabolismo": "Não é significativamente metabolizada",
+      "Meia vida de eliminação": "5-7 horas",
+      "Excreção": "Excretada inalterada pelos rins"
+  },
+  "Avisos": [
+      "Pode causar tontura e sonolência",
+      "Monitorar sinais de piora do comportamento",
+      "Uso com cautela em pacientes com insuficiência renal"
+  ]
+}
+
+const ritalina = {
+  "Nome": "Metilfenidato",
+  "Descrição": "Comumente conhecido como Ritalina, é um estimulante do sistema nervoso central usado no tratamento do transtorno de déficit de atenção e hiperatividade (TDAH) e da narcolepsia.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C14H19NO2",
+      "Peso molecular": 233.31,
+      "Aparência": "Cristais brancos ou pó cristalino",
+      "Solubilidade": "Solúvel em água e etanol",
+      "Ponto de fusão": "89-90 °C"
+  },
+  "Mecanismo de ação": "Bloqueia a recaptação de dopamina e norepinefrina no cérebro, aumentando sua disponibilidade e estimulando o sistema nervoso central.",
+  "Usos médicos": [
+      "Tratamento do TDAH",
+      "Tratamento da narcolepsia"
+  ],
+  "Efeitos colaterais": [
+      "Insônia",
+      "Perda de apetite",
+      "Aumento da frequência cardíaca",
+      "Ansiedade",
+      "Náusea"
+  ],
+  "Formas de dosagem": [
+      "Comprimidos",
+      "Cápsulas de liberação prolongada",
+      "Solução oral"
+  ],
+  "Status legal": {
+      "Classificação": "Substância controlada em muitos países",
+      "Restrições": "Uso restrito a prescrição médica"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvida nos anos 1940",
+      "Uso médico": "Aprovada para uso em 1955"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Bem absorvida pelo trato gastrointestinal",
+      "Distribuição": "Amplamente distribuída pelo corpo",
+      "Metabolismo": "Metabolizada no fígado",
+      "Meia vida de eliminação": "2-4 horas",
+      "Excreção": "Excretada principalmente pelos rins"
+  },
+  "Avisos": [
+      "Risco de abuso e dependência",
+      "Monitorar sinais de piora do comportamento",
+      "Evitar uso em pacientes com problemas cardíacos"
+  ]
+}
+
+//---------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const quetamina = {
+  "Nome": "Quetamina",
+  "Descrição": "É um anestésico dissociativo utilizado principalmente para indução e manutenção da anestesia. Também é utilizada em doses baixas para o tratamento da dor e recentemente tem sido investigada para o tratamento de depressão resistente.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C13H16ClNO",
+      "Peso molecular": 237.73,
+      "Aparência": "Líquido incolor ou pó cristalino branco",
+      "Solubilidade": "Solúvel em água e etanol",
+      "Ponto de fusão": "92-93 °C"
+  },
+  "Mecanismo de ação": "Atua como um antagonista do receptor NMDA, interferindo na neurotransmissão excitatória, o que resulta em anestesia e analgesia.",
+  "Usos médicos": [
+      "Indução e manutenção de anestesia",
+      "Sedação em procedimentos diagnósticos ou terapêuticos",
+      "Tratamento de dor crônica",
+      "Tratamento de depressão resistente"
+  ],
+  "Efeitos colaterais": [
+      "Alucinações",
+      "Aumento da pressão arterial",
+      "Náusea e vômito",
+      "Sedação",
+      "Dependência"
+  ],
+  "Formas de dosagem": [
+      "Solução injetável",
+      "Solução oral",
+      "Comprimidos (para tratamento de depressão)"
+  ],
+  "Status legal": {
+      "Classificação": "Agendada como substância controlada em muitos países",
+      "Restrições": "Uso restrito a prescrição médica"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvida pela Parke-Davis em 1962",
+      "Uso médico": "Aprovada para uso clínico em 1970"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Bem absorvida pelo trato gastrointestinal e por via intramuscular",
+      "Distribuição": "Distribuída amplamente pelo corpo, atravessa a barreira hematoencefálica",
+      "Metabolismo": "Metabolizada principalmente no fígado",
+      "Meia vida de eliminação": "2.5-3 horas",
+      "Excreção": "Excretada principalmente pelos rins"
+  },
+  "Avisos": [
+      "Uso prolongado pode levar à dependência",
+      "Risco de efeitos psiquiátricos como alucinações e dissociação",
+      "Não deve ser usada em pacientes com histórico de hipertensão não controlada"
+  ]
+}
+
+const psilocibina = {
+  "Nome": "Psilocibina",
+  "Descrição": "É um alcaloide triptamínico encontrado em certos cogumelos, conhecidos como cogumelos mágicos. É conhecida por seus efeitos psicodélicos, que incluem alucinações e uma alteração na percepção do tempo e da realidade.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C12H17N2O4P",
+      "Peso molecular": 284.25,
+      "Aparência": "Pó cristalino branco",
+      "Solubilidade": "Solúvel em água, insolúvel em solventes orgânicos",
+      "Ponto de fusão": "220-228 °C (decompõe)"
+  },
+  "Mecanismo de ação": "Atua como agonista dos receptores de serotonina, especialmente o receptor 5-HT2A, o que resulta em efeitos psicodélicos.",
+  "Usos médicos": [
+      "Tratamento experimental de depressão resistente",
+      "Tratamento experimental de ansiedade associada a doenças terminais",
+      "Tratamento experimental de transtorno de estresse pós-traumático (TEPT)"
+  ],
+  "Efeitos colaterais": [
+      "Alucinações",
+      "Mudanças na percepção sensorial e temporal",
+      "Ansiedade",
+      "Náusea",
+      "Dor de cabeça"
+  ],
+  "Formas de dosagem": [
+      "Cogumelos secos",
+      "Cápsulas (em contextos de pesquisa)",
+      "Solução oral (em contextos de pesquisa)"
+  ],
+  "Status legal": {
+      "Classificação": "Classificada como substância controlada na maioria dos países",
+      "Restrições": "Uso restrito a pesquisa científica em muitos países"
+  },
+  "Histórico": {
+      "Descoberta": "Identificada como o composto ativo dos cogumelos psicodélicos por Albert Hofmann em 1958",
+      "Uso tradicional": "Utilizada em rituais religiosos e espirituais por várias culturas indígenas"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Rapidamente absorvida pelo trato gastrointestinal",
+      "Distribuição": "Distribuída amplamente pelo corpo, atravessa a barreira hematoencefálica",
+      "Metabolismo": "Metabolizada principalmente no fígado, convertida em psilocina",
+      "Meia vida de eliminação": "2-3 horas",
+      "Excreção": "Excretada principalmente pelos rins"
+  },
+  "Avisos": [
+      "Pode causar experiências psicológicas intensas e desafiadoras",
+      "Uso não supervisionado pode levar a comportamentos perigosos",
+      "Não deve ser usada em pacientes com histórico de transtornos psicóticos"
+  ]
+}
+
+const psilocina = {
+  "Nome": "Psilocina",
+  "Descrição": "É um alcaloide triptamínico e o principal metabólito ativo da psilocibina. É responsável pelos efeitos psicodélicos dos cogumelos mágicos.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C12H16N2O",
+      "Peso molecular": 204.27,
+      "Aparência": "Pó cristalino branco",
+      "Solubilidade": "Solúvel em água, etanol, e metanol",
+      "Ponto de fusão": "173-176 °C"
+  },
+  "Mecanismo de ação": "Atua como agonista dos receptores de serotonina, especialmente o receptor 5-HT2A, o que resulta em efeitos psicodélicos.",
+  "Usos médicos": [
+      "Tratamento experimental de depressão resistente",
+      "Tratamento experimental de ansiedade associada a doenças terminais",
+      "Tratamento experimental de transtorno de estresse pós-traumático (TEPT)"
+  ],
+  "Efeitos colaterais": [
+      "Alucinações",
+      "Mudanças na percepção sensorial e temporal",
+      "Ansiedade",
+      "Náusea",
+      "Dor de cabeça"
+  ],
+  "Formas de dosagem": [
+      "Cogumelos secos",
+      "Cápsulas (em contextos de pesquisa)",
+      "Solução oral (em contextos de pesquisa)"
+  ],
+  "Status legal": {
+      "Classificação": "Classificada como substância controlada na maioria dos países",
+      "Restrições": "Uso restrito a pesquisa científica em muitos países"
+  },
+  "Histórico": {
+      "Descoberta": "Identificada como o composto ativo dos cogumelos psicodélicos por Albert Hofmann em 1958",
+      "Uso tradicional": "Utilizada em rituais religiosos e espirituais por várias culturas indígenas"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Rapidamente absorvida pelo trato gastrointestinal",
+      "Distribuição": "Distribuída amplamente pelo corpo, atravessa a barreira hematoencefálica",
+      "Metabolismo": "Metabolizada principalmente no fígado",
+      "Meia vida de eliminação": "2-3 horas",
+      "Excreção": "Excretada principalmente pelos rins"
+  },
+  "Avisos": [
+      "Pode causar experiências psicológicas intensas e desafiadoras",
+      "Uso não supervisionado pode levar a comportamentos perigosos",
+      "Não deve ser usada em pacientes com histórico de transtornos psicóticos"
+  ]
+}
+
+const ibotenico = {
+  "Nome": "Ibotênico",
+  "Descrição": "É um alcaloide neurotóxico encontrado em vários cogumelos do gênero Amanita, como Amanita muscaria e Amanita pantherina. É conhecido por seus efeitos neurotóxicos e alucinógenos.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C5H6N2O4",
+      "Peso molecular": 158.11,
+      "Aparência": "Pó cristalino branco",
+      "Solubilidade": "Solúvel em água",
+      "Ponto de fusão": "150-155 °C"
+  },
+  "Mecanismo de ação": "Atua como um agonista não seletivo dos receptores de glutamato NMDA e metabotrópicos, o que resulta em neurotoxicidade e efeitos psicotrópicos.",
+  "Usos médicos": [
+      "Pesquisas experimentais em neurociência"
+  ],
+  "Efeitos colaterais": [
+      "Náusea",
+      "Vômito",
+      "Alucinações",
+      "Confusão",
+      "Neurotoxicidade"
+  ],
+  "Formas de dosagem": [
+      "Cogumelos secos",
+      "Extratos"
+  ],
+  "Status legal": {
+      "Classificação": "Não amplamente regulado, mas o uso de cogumelos que contêm ácido ibotênico é controlado em alguns países",
+      "Restrições": "Uso restrito a pesquisa científica em muitos países"
+  },
+  "Histórico": {
+      "Descoberta": "Isolado pela primeira vez em 1960",
+      "Uso tradicional": "Utilizado em rituais xamânicos por várias culturas indígenas"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Rapidamente absorvido pelo trato gastrointestinal",
+      "Distribuição": "Distribuído amplamente pelo corpo, atravessa a barreira hematoencefálica",
+      "Metabolismo": "Metabolizado em parte em muscimol, um composto ativo relacionado",
+      "Meia vida de eliminação": "1.5-3 horas",
+      "Excreção": "Excretado principalmente pelos rins"
+  },
+  "Avisos": [
+      "Pode causar neurotoxicidade",
+      "Uso não supervisionado pode levar a comportamentos perigosos",
+      "Não deve ser usado por pessoas com condições neurológicas pré-existentes"
+  ]
+}
+
+const zolpidem = {
+  "Nome": "Zolpidem",
+  "Descrição": "É um medicamento hipnótico utilizado principalmente para o tratamento de insônia. É conhecido por induzir o sono rapidamente e é geralmente utilizado a curto prazo.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C19H21N3O",
+      "Peso molecular": 307.39,
+      "Aparência": "Pó cristalino branco",
+      "Solubilidade": "Levemente solúvel em água, solúvel em metanol e etanol",
+      "Ponto de fusão": "162-166 °C"
+  },
+  "Mecanismo de ação": "Atua como um agonista seletivo dos receptores benzodiazepínicos no complexo receptor GABA-A, promovendo sedação e indução do sono.",
+  "Usos médicos": [
+      "Tratamento de insônia"
+  ],
+  "Efeitos colaterais": [
+      "Sonolência diurna",
+      "Tontura",
+      "Dor de cabeça",
+      "Náusea",
+      "Sonambulismo"
+  ],
+  "Formas de dosagem": [
+      "Comprimidos",
+      "Comprimidos sublinguais",
+      "Solução oral"
+  ],
+  "Status legal": {
+      "Classificação": "Substância controlada em muitos países",
+      "Restrições": "Uso restrito a prescrição médica"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvido pela primeira vez na década de 1980",
+      "Uso médico": "Aprovado para uso clínico na década de 1990"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Rapidamente absorvido pelo trato gastrointestinal",
+      "Distribuição": "Amplamente distribuído pelo corpo, atravessa a barreira hematoencefálica",
+      "Metabolismo": "Metabolizado principalmente no fígado",
+      "Meia vida de eliminação": "2-3 horas",
+      "Excreção": "Excretado principalmente pelos rins"
+  },
+  "Avisos": [
+      "Pode causar dependência",
+      "Uso prolongado não recomendado",
+      "Cuidado ao operar máquinas ou dirigir"
+  ]
+}
+
+const prometazina = {
+  "Nome": "Prometazina",
+  "Descrição": "É um medicamento anti-histamínico de primeira geração com efeitos sedativos e antieméticos. É utilizado no tratamento de alergias, náuseas e vômitos, e para induzir sedação.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C17H20N2S",
+      "Peso molecular": 284.42,
+      "Aparência": "Pó cristalino branco a amarelo pálido",
+      "Solubilidade": "Levemente solúvel em água, solúvel em etanol e clorofórmio",
+      "Ponto de fusão": "60-61 °C"
+  },
+  "Mecanismo de ação": "Atua como antagonista dos receptores H1 da histamina, bloqueando a ação da histamina e promovendo efeitos sedativos.",
+  "Usos médicos": [
+      "Tratamento de alergias",
+      "Prevenção e tratamento de náuseas e vômitos",
+      "Indução de sedação pré-operatória",
+      "Tratamento de cinetose"
+  ],
+  "Efeitos colaterais": [
+      "Sonolência",
+      "Boca seca",
+      "Visão turva",
+      "Constipação",
+      "Confusão (em idosos)"
+  ],
+  "Formas de dosagem": [
+      "Comprimidos",
+      "Xarope",
+      "Solução injetável",
+      "Supositórios"
+  ],
+  "Status legal": {
+      "Classificação": "Disponível sob prescrição médica em muitos países",
+      "Restrições": "Uso supervisionado por profissional de saúde"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvida pela primeira vez na década de 1940",
+      "Uso médico": "Amplamente utilizada desde então"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Bem absorvida pelo trato gastrointestinal",
+      "Distribuição": "Amplamente distribuída pelo corpo, atravessa a barreira hematoencefálica",
+      "Metabolismo": "Metabolizada principalmente no fígado",
+      "Meia vida de eliminação": "10-14 horas",
+      "Excreção": "Excretada principalmente pelos rins"
+  },
+  "Avisos": [
+      "Pode causar sedação significativa",
+      "Cuidado ao operar máquinas ou dirigir",
+      "Uso prolongado pode levar a efeitos anticolinérgicos"
+  ]
+}
+
+const lurasidona = {
+  "Nome": "Lurasidona",
+  "Descrição": "É um antipsicótico atípico utilizado no tratamento de esquizofrenia e transtorno bipolar. É conhecida por seu perfil de efeitos colaterais relativamente favorável em comparação com outros antipsicóticos.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C28H36N4O2S",
+      "Peso molecular": 492.68,
+      "Aparência": "Pó cristalino branco",
+      "Solubilidade": "Levemente solúvel em água, solúvel em metanol",
+      "Ponto de fusão": "190-195 °C"
+  },
+  "Mecanismo de ação": "Atua como antagonista dos receptores de dopamina D2 e dos receptores de serotonina 5-HT2A, modulando neurotransmissão para reduzir sintomas psicóticos.",
+  "Usos médicos": [
+      "Tratamento de esquizofrenia",
+      "Tratamento de episódios depressivos associados ao transtorno bipolar"
+  ],
+  "Efeitos colaterais": [
+      "Sonolência",
+      "Acatisia",
+      "Náusea",
+      "Aumento de peso",
+      "Distúrbios extrapiramidais"
+  ],
+  "Formas de dosagem": [
+      "Comprimidos"
+  ],
+  "Status legal": {
+      "Classificação": "Disponível sob prescrição médica",
+      "Restrições": "Uso supervisionado por profissional de saúde"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvida pela primeira vez na década de 2000",
+      "Uso médico": "Aprovada para uso clínico em 2010"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Bem absorvida pelo trato gastrointestinal, especialmente com alimentos",
+      "Distribuição": "Amplamente distribuída pelo corpo",
+      "Metabolismo": "Metabolizada principalmente no fígado",
+      "Meia vida de eliminação": "18 horas",
+      "Excreção": "Excretada principalmente pelas fezes"
+  },
+  "Avisos": [
+      "Pode causar sonolência",
+      "Monitorar para sintomas de discinesia tardia",
+      "Cuidado ao operar máquinas ou dirigir"
+  ]
+}
+
+const tabaco = {
+  "Nome": "Tabaco",
+  "Descrição": "É uma planta da espécie Nicotiana tabacum, cujas folhas são utilizadas para a produção de cigarros, charutos, cachimbos e tabaco de mascar. É conhecido por conter nicotina, uma substância altamente viciante.",
+  
+  "Propriedades físicas e químicas": {
+      "Espécie": "Nicotiana tabacum",
+      "Componentes principais": "Nicotina, alcaloides, substâncias tóxicas como alcatrão e monóxido de carbono",
+      "Forma de uso": "Fumado, mascado ou aspirado"
+  },
+  "Mecanismo de ação": "A nicotina atua como um agonista dos receptores de acetilcolina no sistema nervoso central e periférico, induzindo efeitos estimulantes e de reforço positivo.",
+  "Usos médicos": [
+      "Historicamente usado por suas propriedades estimulantes e rituais sociais"
+  ],
+  "Efeitos colaterais": [
+      "Dependência física e psicológica",
+      "Aumento do risco de doenças cardiovasculares",
+      "Câncer de pulmão e outras doenças respiratórias",
+      "Toxicidade fetal em mulheres grávidas"
+  ],
+  "Formas de dosagem": [
+      "Cigarros",
+      "Charutos",
+      "Cachimbos",
+      "Tabaco de mascar"
+  ],
+  "Status legal": {
+      "Classificação": "Produto legal para adultos em muitos países, com restrições de venda e publicidade",
+      "Restrições": "Uso restrito a maiores de idade, com advertências de saúde obrigatórias"
+  },
+  "Histórico": {
+      "Uso tradicional": "Utilizado por povos indígenas americanos há séculos",
+      "Comercialização moderna": "Popularizado após a colonização europeia das Américas"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Rapidamente absorvida pela mucosa oral e pulmões",
+      "Distribuição": "Distribuída rapidamente pelo corpo, atravessa a barreira hematoencefálica",
+      "Metabolismo": "Metabolizado principalmente no fígado",
+      "Meia vida de eliminação": "2 horas",
+      "Excreção": "Excretado principalmente pela urina"
+  },
+  "Avisos": [
+      "Altamente viciante devido à nicotina",
+      "Causa sérios danos à saúde",
+      "Recomenda-se evitar o uso durante a gravidez e lactação"
+  ]
+}
+
+const nicotina = {
+  "Nome": "Nicotina",
+  "Descrição": "É um alcaloide estimulante encontrado principalmente no tabaco. É altamente viciante e causa efeitos estimulantes e de relaxamento.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C10H14N2",
+      "Peso molecular": 162.23,
+      "Aparência": "Líquido oleoso incolor a amarelado",
+      "Solubilidade": "Solúvel em água e solventes orgânicos",
+      "Ponto de fusão": "-79 °C"
+  },
+  "Mecanismo de ação": "Atua como um agonista dos receptores nicotínicos de acetilcolina no sistema nervoso central e periférico, promovendo a liberação de neurotransmissores como dopamina.",
+  "Usos médicos": [
+      "Historicamente usado como estimulante e para rituais sociais"
+  ],
+  "Efeitos colaterais": [
+      "Dependência física e psicológica",
+      "Aumento do risco de doenças cardiovasculares",
+      "Elevação da pressão arterial e frequência cardíaca",
+      "Náusea e vômito em doses elevadas"
+  ],
+  "Formas de dosagem": [
+      "Cigarros",
+      "Gomas de mascar",
+      "Adesivos transdérmicos",
+      "Sprays nasais"
+  ],
+  "Status legal": {
+      "Classificação": "Nicotina pura é geralmente regulada como uma substância controlada em alguns países, enquanto produtos de tabaco são legalizados para adultos com restrições",
+      "Restrições": "Uso restrito a maiores de idade, com advertências de saúde obrigatórias"
+  },
+  "Histórico": {
+      "Uso tradicional": "Utilizado por povos indígenas americanos há séculos",
+      "Comercialização moderna": "Popularizado após a colonização europeia das Américas"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Rapidamente absorvida pela mucosa oral e pulmões",
+      "Distribuição": "Distribuída rapidamente pelo corpo, atravessa a barreira hematoencefálica",
+      "Metabolismo": "Metabolizado principalmente no fígado",
+      "Meia vida de eliminação": "2 horas",
+      "Excreção": "Excretado principalmente pela urina"
+  },
+  "Avisos": [
+      "Altamente viciante",
+      "Causa sérios danos à saúde",
+      "Recomenda-se evitar o uso durante a gravidez e lactação"
+  ]
+}
+
+const pregabalina = {
+  "Nome": "Pregabalina",
+  "Descrição": "É um medicamento antiepiléptico e analgésico utilizado para tratar convulsões, dor neuropática e ansiedade generalizada. É conhecida por seu efeito calmante e relaxante.",
+  
+  "Propriedades físicas e químicas": {
+      "Fórmula química": "C8H17NO2",
+      "Peso molecular": 159.23,
+      "Aparência": "Pó cristalino branco",
+      "Solubilidade": "Pouco solúvel em água, solúvel em metanol",
+      "Ponto de fusão": "194-197 °C"
+  },
+  "Mecanismo de ação": "Atua como um ligante dos canais de cálcio dependentes de voltagem no sistema nervoso central, reduzindo a liberação de neurotransmissores excitatórios.",
+  "Usos médicos": [
+      "Tratamento de convulsões",
+      "Tratamento de dor neuropática",
+      "Tratamento de ansiedade generalizada"
+  ],
+  "Efeitos colaterais": [
+      "Sonolência",
+      "Tontura",
+      "Ganho de peso",
+      "Visão turva",
+      "Confusão"
+  ],
+  "Formas de dosagem": [
+      "Cápsulas",
+      "Comprimidos",
+      "Solução oral"
+  ],
+  "Status legal": {
+      "Classificação": "Medicamento controlado em muitos países",
+      "Restrições": "Uso restrito a prescrição médica"
+  },
+  "Histórico": {
+      "Descoberta": "Desenvolvida na década de 1990",
+      "Uso médico": "Aprovada para uso clínico no tratamento de convulsões e dor neuropática"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Bem absorvida pelo trato gastrointestinal",
+      "Distribuição": "Distribuída amplamente pelo corpo",
+      "Metabolismo": "Metabolizada no fígado",
+      "Meia vida de eliminação": "6-7 horas",
+      "Excreção": "Excretada principalmente pelos rins"
+  },
+  "Avisos": [
+      "Pode causar dependência física e psicológica",
+      "Cuidado ao operar máquinas ou dirigir",
+      "Evitar o consumo de álcool durante o tratamento"
+  ]
+}
+
+const adderall = {
+  "Nome": "Adderall",
+  "Descrição": "É um medicamento estimulante utilizado no tratamento do transtorno de déficit de atenção e hiperatividade (TDAH) e narcolepsia. É conhecido por melhorar a concentração e reduzir a hiperatividade.",
+  
+  "Propriedades físicas e químicas": {
+      "Composição": "Mistura racêmica de sais de anfetamina (principalmente dextroanfetamina e levoanfetamina)",
+      "Forma de uso": "Oral, em cápsulas ou comprimidos"
+  },
+  "Mecanismo de ação": "Atua como um agonista indireto dos receptores adrenérgicos e dopaminérgicos, aumentando a liberação de neurotransmissores como dopamina e norepinefrina.",
+  "Usos médicos": [
+      "Tratamento de TDAH em crianças e adultos",
+      "Tratamento de narcolepsia"
+  ],
+  "Efeitos colaterais": [
+      "Insônia",
+      "Perda de apetite",
+      "Nervosismo",
+      "Dor de cabeça",
+      "Aumento da frequência cardíaca e pressão arterial"
+  ],
+  "Formas de dosagem": [
+      "Cápsulas de liberação imediata",
+      "Cápsulas de liberação prolongada"
+  ],
+  "Status legal": {
+      "Classificação": "Medicamento controlado em muitos países",
+      "Restrições": "Uso restrito a prescrição médica"
+  },
+  "Histórico": {
+      "Desenvolvimento": "Aprovado pela FDA na década de 1990",
+      "Uso médico": "Amplamente utilizado para o tratamento de TDAH desde então"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Rápida absorção pelo trato gastrointestinal",
+      "Distribuição": "Distribuição ampla pelo corpo, atravessa a barreira hematoencefálica",
+      "Metabolismo": "Metabolizado no fígado",
+      "Meia vida de eliminação": "11-13 horas",
+      "Excreção": "Excretado principalmente pela urina"
+  },
+  "Avisos": [
+      "Altamente viciante",
+      "Monitoramento durante o tratamento",
+      "Evitar o uso em pacientes com histórico de abuso de substâncias"
+  ]
+}
+
+const litio = {
+  "Nome": "Lítio",
+  "Descrição": "É um medicamento utilizado principalmente no tratamento de transtornos do humor, como o transtorno bipolar. Também pode ser utilizado na prevenção de episódios de mania e depressão.",
+  
+  "Propriedades físicas e químicas": {
+      "Símbolo químico": "Li",
+      "Número atômico": 3,
+      "Peso molecular": 6.94,
+      "Aparência": "Metal sólido de cor prateada",
+      "Estado físico": "Sólido à temperatura ambiente"
+  },
+  "Mecanismo de ação": "O mecanismo exato não é completamente entendido, mas acredita-se que o lítio altere o equilíbrio dos neurotransmissores no cérebro, incluindo a serotonina e a noradrenalina.",
+  "Usos médicos": [
+      "Tratamento de transtorno bipolar",
+      "Prevenção de episódios de mania e depressão"
+  ],
+  "Efeitos colaterais": [
+      "Tremores finos",
+      "Sede excessiva e micção frequente",
+      "Aumento de peso",
+      "Diarreia ou constipação",
+      "Distúrbios da tireoide"
+  ],
+  "Formas de dosagem": [
+      "Comprimidos de liberação prolongada"
+  ],
+  "Status legal": {
+      "Classificação": "Medicamento controlado em muitos países",
+      "Restrições": "Uso restrito a prescrição médica devido ao estreito intervalo terapêutico e efeitos colaterais potenciais"
+  },
+  "Histórico": {
+      "Descoberta": "Descoberto em 1817 por Johan August Arfvedson",
+      "Uso médico": "Introduzido no tratamento de transtorno bipolar na década de 1950"
+  },
+  "Farmacocinetica": {
+      "Absorção": "Bem absorvido pelo trato gastrointestinal",
+      "Distribuição": "Distribuído uniformemente pelos tecidos corporais, incluindo o cérebro",
+      "Metabolismo": "Não é metabolizado significativamente no corpo",
+      "Meia vida de eliminação": "20-24 horas",
+      "Excreção": "Excretado principalmente pelos rins"
+  },
+  "Avisos": [
+      "Requer monitoramento regular dos níveis sanguíneos",
+      "Pode causar toxicidade se os níveis sanguíneos não forem monitorados",
+      "Não deve ser usado em pacientes com disfunção renal ou cardiovascular grave"
+  ]
+}
 
 
 let dataAtual = new Date();
@@ -1100,13 +2500,18 @@ let primeiroDiaDoAno = new Date(dataAtual.getFullYear(), 0, 1);
 let diferencaEmMilissegundos = dataAtual - primeiroDiaDoAno;
 let diaDoAno = Math.ceil(diferencaEmMilissegundos / (1000 * 60 * 60 * 24));
 
-const drogas = [morfina, cocaina, lsd, maconha, anfetamina, cigarro, alcool, acucar, cafeina, codeina, oxicodona, fentanil, hidromorfona, meperidina, lidocaina, insulina, ceftriaxona, paracetamol, ibuprofeno, amoxicilina, mdma, crack];
-let droga = 0
+const drogas = [morfina, cocaina, lsd, maconha, anfetamina, cigarro, alcool, acucar, cafeina,
+                codeina, oxicodona, fentanil, hidromorfona, meperidina, lidocaina, insulina,
+                ceftriaxona, paracetamol, ibuprofeno, amoxicilina, mdma, crack, heroina,
+                metadona, diazepam, cetamina, nitroglicerina, clonazepam, fluoxetina, propofol,
+                dexametasona, clonidina, amitriptilina, aripiprazol, tramadol, amiodarona,
+                gabapentina, ritalina, quetamina, psilocibina, psilocina, ibotenico, zolpidem,
+                prometazina, lurasidona, tabaco, nicotina, pregabalina, adderall, litio];
 
+let droga = 0
 const drogasPeloAno = {}
 for (var i=0; i < 367; i++) {
   drogasPeloAno[i] = drogas[droga]
-  droga++
   droga = (droga + 1) % drogas.length
 }
 
